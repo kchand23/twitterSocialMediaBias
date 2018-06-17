@@ -76,10 +76,10 @@ def createUrlFile(media):
 	    json.dump(tempList, outfile,sort_keys=True, indent=4)
 
 
-api = twitter.Api(consumer_key='DooyiKWIAJmqUaWx7I4zTtINr',
-                  consumer_secret='1O1pKsLXYQYZQypqRuyv7aaWClHGla8Ni1BQtSG76e4ke8BjJO',
-                  access_token_key='635779748-HWG4iiAZwSMmyEqqxh98IrDyExMkuIphOdR2KRgm',
-                  access_token_secret='rDk4Y8UIsL9P4vK2h2dzQJmTzmddpntXBUihpK4VFHN0p')
+api = twitter.Api(consumer_key='enter yours here',
+                  consumer_secret='enter yours here',
+                  access_token_key='enter yours here',
+                  access_token_secret='enter yours here')
 
 filter = []
 media = []
